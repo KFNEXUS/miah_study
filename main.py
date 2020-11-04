@@ -1,6 +1,23 @@
 import random
 import math
 # print(math.sqrt(64))
+def minus(x,y):
+    sum = x - y
+
+
+    #print(sum)
+    return sum
+
+def plus(x,y,func):
+    sum = func(x,y)*2
+
+    return sum
+
+print(plus(10,5,minus))
+
+
+
+
 print('ax^2+bx+c')
 a = int(input("введите a "))
 b = int(input("введите b "))
