@@ -15,9 +15,6 @@ def plus(x,y,func):
 
 print(plus(10,5,minus))
 
-
-
-
 print('ax^2+bx+c')
 a = int(input("введите a "))
 b = int(input("введите b "))
@@ -27,8 +24,6 @@ kD = math.sqrt(D)
 x1 = (-b+kD)/(2*a)
 x2 = (-b-kD)/(2*a)
 print('x1 = ' + str(x1) + ' x2 = ' + str(x2))
-
-
 
 """
 Первая программа на питоне
