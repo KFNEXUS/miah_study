@@ -1,6 +1,8 @@
 import random
 import math
 # print(math.sqrt(64))
+
+"""
 def minus(x,y):
     sum = x - y
 
@@ -13,7 +15,12 @@ def plus(x,y,func):
 
     return sum
 
-print(plus(10,5,minus))
+    print(plus(11,5,minus))
+"""
+
+"""
+
+#Решение квадратного уравнения
 
 print('ax^2+bx+c')
 a = int(input("введите a "))
@@ -26,6 +33,9 @@ x2 = (-b-kD)/(2*a)
 print('x1 = ' + str(x1) + ' x2 = ' + str(x2))
 
 """
+
+"""
+
 Первая программа на питоне
 
 
@@ -41,4 +51,5 @@ print('число: ', "(" + str(input_number) + ")")
 print(type(input_number))
 # получим д6
 print('случайное число', random.randint(1, 6))
+
 """
