@@ -1,8 +1,9 @@
 i = 1
-while i <= 10:
+while i <= 9:
     k = 1
-    while k <= 10:
-        print(i * k)
+    while k <= 9:
+        print(i * k, end="   ")
+
         k += 1
-    print('\t')
+    print()
     i += 1
