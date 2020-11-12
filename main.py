@@ -2,6 +2,8 @@ import random
 import math
 # print(math.sqrt(64))
 
+
+#print(s.find('s'))
 """
 def minus(x,y):
     sum = x - y
