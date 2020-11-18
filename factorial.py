@@ -1,5 +1,5 @@
 def fact(n):
-    print (n, (n-1)*n, (n-1))
+    print(n, (n-1)*n, (n-1))
     if n == 0:
         return 1
     else:
