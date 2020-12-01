@@ -1,0 +1,60 @@
+Переходим к учебнику
+
+http://openbookproject.net/thinkcs/python/english3e/strings.html
+
+7. Сделать функцию реверсирующую строку (вернуть строку в обратном порядке)
+
+test(reverse("happy") == "yppah")
+test(reverse("Python") == "nohtyP")
+test(reverse("") == "")
+test(reverse("a") == "a")
+
+8. Сделать функцию Отразить строку
+
+test(mirror("good") == "gooddoog")
+test(mirror("Python") == "PythonnohtyP")
+test(mirror("") == "")
+test(mirror("a") == "aa")
+
+9. функцию которая удаляет все вхождения буквы в строку
+
+test(remove_letter("a", "apple") == "pple")
+test(remove_letter("a", "banana") == "bnn")
+test(remove_letter("z", "banana") == "banana")
+test(remove_letter("i", "Mississippi") == "Msssspp")
+test(remove_letter("b", "") = "")
+test(remove_letter("b", "c") = "c")
+
+10.  функцию которая Определиь полиндром
+
+test(is_palindrome("abba"))
+test(not is_palindrome("abab"))
+test(is_palindrome("tenet"))
+test(not is_palindrome("banana"))
+test(is_palindrome("straw warts"))
+test(is_palindrome("a"))
+# test(is_palindrome(""))    # Is an empty string a palindrome?
+
+11. функцию которая находит Коллчисетво вхождений подстроки в строку
+
+test(count("is", "Mississippi") == 2)
+test(count("an", "banana") == 2)
+test(count("ana", "banana") == 2)
+test(count("nana", "banana") == 1)
+test(count("nanan", "banana") == 0)
+test(count("aaa", "aaaaaa") == 4)
+
+12 Написать функцию которая удаляет первое вхождение подстроки в строку
+
+test(remove("an", "banana") == "bana")
+test(remove("cyc", "bicycle") == "bile")
+test(remove("iss", "Mississippi") == "Missippi")
+test(remove("eggs", "bicycle") == "bicycle")
+
+13 Написать функцию которая удаляет ВСЕ вхождение подстроки в строку
+
+
+test(remove_all("an", "banana") == "ba")
+test(remove_all("cyc", "bicycle") == "bile")
+test(remove_all("iss", "Mississippi") == "Mippi")
+test(remove_all("eggs", "bicycle") == "bicycle")

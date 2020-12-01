@@ -1,3 +1,5 @@
+from test import *
+
 def fib(n):
     if n == 0:
         return 0
@@ -8,3 +10,5 @@ def fib(n):
 
 
 print(fib(9))
+test(fib(9) == 34)
+test(fib(9) == 87)
